@@ -7,7 +7,7 @@
 
 body {
     background: #eb3feb;
-    color: #333;
+    color: #1a49c1;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -32,14 +32,16 @@ form {
     padding: 0.6rem;
     border: 1px solid #160eae;
     border-radius: 6px;
+    border: 1px solid #ccc;
 }
 
 button {
     padding: 0.6rem 1rem;
     border: none;
     border-radius: 6xp;
+    border: 1px solid #ccc;
     background: #08c20e; 
-    color: #de1818;
+    color: #562929;
     cursor: pointer;
 }
 
@@ -58,16 +60,16 @@ ul {
     justify-self: space-between;
     align-items: center;
     background: #fff;
-    padding: 0.6rem 0.8rem;
+    padding: 0.10rem 0.6rem;
     border-radius: 6xp;
-    margin-bottom: 0.5rem;
-    box-shadow: 0 1px 3xp rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.10rem;
+    box-shadow: 0 1px 3xp rgba(44, 115, 143, 0.1);
 
 }
 
 .eliminar{
-    background: #b03a4a;
-    padding: 0.3rem 0.6rem;
+    background: #12832d;
+    padding: 0.6rem 0.8rem;
 
 
 }
@@ -78,7 +80,7 @@ ul {
 
 
 .completada .texto {
-    background: #0cf01f;
+    text-decoration:  line-through;
 
 }
 
