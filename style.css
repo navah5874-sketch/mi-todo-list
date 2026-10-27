@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #fdfbfd;
+    background: #eb3feb;
     color: #333;
     min-height: 100vh;
     display: flex;
@@ -39,7 +39,7 @@ button {
     border: none;
     border-radius: 6xp;
     background: #08c20e; 
-    color: #fff;
+    color: #de1818;
     cursor: pointer;
 }
 
